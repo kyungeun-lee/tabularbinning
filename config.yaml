@@ -1,0 +1,21 @@
+gpu_id: 0
+savepath: results/CH
+dataname: CH
+objectives:
+    mse_binning: 1
+
+transform_params: 
+#     Masking:
+#         mask_prob: 0.1
+#         masking_constant: 0
+
+binning_params:
+    num_bins: 10
+    reg_binning: True
+
+encodername: mlp
+decodername: mlp
+predictorname: identity
+n_decoder: 1
+mlpwidth: 128
+mlpdepth: 1
