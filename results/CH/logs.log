@@ -1,0 +1,15 @@
+Results will be saved at.. results/CH
+ba0513ddafbb:0
+encoder: {'modelname': 'mlp', 'd_in': 10, 'd_out': 128, 'd_layers': [128]}
+decoder: {'modelname': 'mlp', 'd_in': 128, 'd_out': 10, 'd_layers': [128]}
+predictor: {'modelname': 'identity'}
+EPOCH: 100 ...Elapsed: 7.864 secs ... LOSS: 0.06083
+EPOCH: 200 ...Elapsed: 14.534 secs ... LOSS: 0.04949
+EPOCH: 300 ...Elapsed: 21.044 secs ... LOSS: 0.04455
+EPOCH: 400 ...Elapsed: 27.821 secs ... LOSS: 0.04317
+EPOCH: 500 ...Elapsed: 34.216 secs ... LOSS: 0.04012
+EPOCH: 600 ...Elapsed: 40.747 secs ... LOSS: 0.03959
+EPOCH: 700 ...Elapsed: 47.521 secs ... LOSS: 0.03598
+EPOCH: 800 ...Elapsed: 54.222 secs ... LOSS: 0.03685
+EPOCH: 900 ...Elapsed: 60.919 secs ... LOSS: 0.03731
+EPOCH: 1000 ...Elapsed: 67.546 secs ... LOSS: 0.03858

@@ -1,0 +1,115 @@
+Results will be saved at.. results/CH/finetuning
+ba0513ddafbb:0
+encoder: {'modelname': 'mlp', 'd_in': 10, 'd_out': 128, 'd_layers': [128]}
+decoder: {'modelname': 'identity'}
+predictor: {'modelname': 'identity'}
+Results will be saved at.. results/CH/finetuning
+ba0513ddafbb:0
+encoder: {'modelname': 'mlp', 'd_in': 10, 'd_out': 128, 'd_layers': [128]}
+decoder: {'modelname': 'identity'}
+predictor: {'modelname': 'identity'}
+Results will be saved at.. results/CH/finetuning
+ba0513ddafbb:0
+encoder: {'modelname': 'mlp', 'd_in': 10, 'd_out': 128, 'd_layers': [128]}
+decoder: {'modelname': 'identity'}
+predictor: {'modelname': 'identity'}
+EPOCH:  1 ... SCORE: train 0.79781, val 0.79500, test 0.79188
+EPOCH:  2 ... SCORE: train 0.81047, val 0.81125, test 0.79438
+EPOCH:  3 ... SCORE: train 0.81859, val 0.81562, test 0.81187
+EPOCH:  4 ... SCORE: train 0.82875, val 0.82000, test 0.81375
+EPOCH:  5 ... SCORE: train 0.83578, val 0.82625, test 0.81937
+EPOCH:  6 ... SCORE: train 0.83734, val 0.83437, test 0.82000
+EPOCH:  7 ... SCORE: train 0.84516, val 0.83687, test 0.82187
+EPOCH:  8 ... SCORE: train 0.84938, val 0.84000, test 0.82937
+EPOCH:  9 ... SCORE: train 0.85359, val 0.84187, test 0.82875
+EPOCH: 10 ... SCORE: train 0.85484, val 0.84687, test 0.82875
+EPOCH: 11 ... SCORE: train 0.85609, val 0.84812, test 0.83125
+EPOCH: 12 ... SCORE: train 0.85719, val 0.85250, test 0.83000
+EPOCH: 13 ... SCORE: train 0.85812, val 0.85375, test 0.83375
+EPOCH: 14 ... SCORE: train 0.86125, val 0.85250, test 0.83375
+EPOCH: 15 ... SCORE: train 0.86187, val 0.85375, test 0.83562
+EPOCH: 16 ... SCORE: train 0.86297, val 0.85625, test 0.83312
+EPOCH: 17 ... SCORE: train 0.86141, val 0.86187, test 0.83437
+EPOCH: 18 ... SCORE: train 0.86453, val 0.86000, test 0.83437
+EPOCH: 19 ... SCORE: train 0.86359, val 0.85812, test 0.83750
+EPOCH: 20 ... SCORE: train 0.86531, val 0.85625, test 0.83937
+EPOCH: 21 ... SCORE: train 0.86625, val 0.85625, test 0.84125
+EPOCH: 22 ... SCORE: train 0.86531, val 0.86375, test 0.83937
+EPOCH: 23 ... SCORE: train 0.86578, val 0.86187, test 0.83812
+EPOCH: 24 ... SCORE: train 0.86516, val 0.86187, test 0.83750
+EPOCH: 25 ... SCORE: train 0.86531, val 0.85875, test 0.84250
+EPOCH: 26 ... SCORE: train 0.86656, val 0.86125, test 0.84187
+EPOCH: 27 ... SCORE: train 0.86531, val 0.86500, test 0.83625
+EPOCH: 28 ... SCORE: train 0.86578, val 0.85500, test 0.83812
+EPOCH: 29 ... SCORE: train 0.86656, val 0.86187, test 0.83562
+EPOCH: 30 ... SCORE: train 0.86719, val 0.86062, test 0.84312
+EPOCH: 31 ... SCORE: train 0.86734, val 0.86312, test 0.84000
+EPOCH: 32 ... SCORE: train 0.86656, val 0.86375, test 0.84312
+EPOCH: 33 ... SCORE: train 0.86875, val 0.86125, test 0.84000
+EPOCH: 34 ... SCORE: train 0.86656, val 0.86125, test 0.83750
+EPOCH: 35 ... SCORE: train 0.86797, val 0.86250, test 0.84312
+EPOCH: 36 ... SCORE: train 0.86750, val 0.86625, test 0.83812
+EPOCH: 37 ... SCORE: train 0.86797, val 0.86500, test 0.84187
+EPOCH: 38 ... SCORE: train 0.86953, val 0.86562, test 0.83812
+EPOCH: 39 ... SCORE: train 0.86719, val 0.86312, test 0.84125
+EPOCH: 40 ... SCORE: train 0.86844, val 0.86437, test 0.84062
+EPOCH: 41 ... SCORE: train 0.86906, val 0.86375, test 0.84125
+EPOCH: 42 ... SCORE: train 0.86875, val 0.86375, test 0.84125
+EPOCH: 43 ... SCORE: train 0.86859, val 0.86437, test 0.83812
+EPOCH: 44 ... SCORE: train 0.86937, val 0.86250, test 0.84250
+EPOCH: 45 ... SCORE: train 0.87000, val 0.86250, test 0.84062
+EPOCH: 46 ... SCORE: train 0.87031, val 0.86312, test 0.84000
+EPOCH: 47 ... SCORE: train 0.87000, val 0.86312, test 0.83687
+EPOCH: 48 ... SCORE: train 0.87031, val 0.86187, test 0.83812
+EPOCH: 49 ... SCORE: train 0.86906, val 0.86375, test 0.83937
+EPOCH: 50 ... SCORE: train 0.87031, val 0.86375, test 0.83937
+EPOCH: 51 ... SCORE: train 0.87078, val 0.86437, test 0.84000
+EPOCH: 52 ... SCORE: train 0.87125, val 0.86500, test 0.84000
+EPOCH: 53 ... SCORE: train 0.87187, val 0.86375, test 0.84125
+EPOCH: 54 ... SCORE: train 0.87078, val 0.86562, test 0.83937
+EPOCH: 55 ... SCORE: train 0.86969, val 0.86125, test 0.84125
+EPOCH: 56 ... SCORE: train 0.87062, val 0.86562, test 0.83937
+EPOCH: 57 ... SCORE: train 0.87094, val 0.86187, test 0.84000
+EPOCH: 58 ... SCORE: train 0.87156, val 0.86187, test 0.84000
+EPOCH: 59 ... SCORE: train 0.87187, val 0.86437, test 0.83875
+EPOCH: 60 ... SCORE: train 0.87156, val 0.86312, test 0.84000
+EPOCH: 61 ... SCORE: train 0.87125, val 0.86437, test 0.84125
+EPOCH: 62 ... SCORE: train 0.87187, val 0.86500, test 0.83812
+EPOCH: 63 ... SCORE: train 0.87141, val 0.86250, test 0.84062
+EPOCH: 64 ... SCORE: train 0.87156, val 0.86375, test 0.83937
+EPOCH: 65 ... SCORE: train 0.87016, val 0.86625, test 0.83437
+EPOCH: 66 ... SCORE: train 0.87219, val 0.86375, test 0.84062
+EPOCH: 67 ... SCORE: train 0.87125, val 0.86187, test 0.84000
+EPOCH: 68 ... SCORE: train 0.87187, val 0.86437, test 0.84250
+EPOCH: 69 ... SCORE: train 0.87141, val 0.86250, test 0.83937
+EPOCH: 70 ... SCORE: train 0.87156, val 0.86250, test 0.83875
+EPOCH: 71 ... SCORE: train 0.87172, val 0.86312, test 0.83562
+EPOCH: 72 ... SCORE: train 0.87109, val 0.86250, test 0.83750
+EPOCH: 73 ... SCORE: train 0.87141, val 0.86187, test 0.83750
+EPOCH: 74 ... SCORE: train 0.87219, val 0.86250, test 0.83937
+EPOCH: 75 ... SCORE: train 0.87156, val 0.86312, test 0.83625
+EPOCH: 76 ... SCORE: train 0.87109, val 0.86312, test 0.83687
+EPOCH: 77 ... SCORE: train 0.87109, val 0.86375, test 0.83812
+EPOCH: 78 ... SCORE: train 0.87141, val 0.86312, test 0.83687
+EPOCH: 79 ... SCORE: train 0.87156, val 0.86375, test 0.83812
+EPOCH: 80 ... SCORE: train 0.87094, val 0.86312, test 0.83750
+EPOCH: 81 ... SCORE: train 0.87078, val 0.86125, test 0.83812
+EPOCH: 82 ... SCORE: train 0.87109, val 0.86250, test 0.83625
+EPOCH: 83 ... SCORE: train 0.87187, val 0.86250, test 0.84000
+EPOCH: 84 ... SCORE: train 0.87125, val 0.86250, test 0.83875
+EPOCH: 85 ... SCORE: train 0.87141, val 0.86250, test 0.83750
+EPOCH: 86 ... SCORE: train 0.87094, val 0.86250, test 0.83687
+EPOCH: 87 ... SCORE: train 0.87156, val 0.86187, test 0.83687
+EPOCH: 88 ... SCORE: train 0.87187, val 0.86250, test 0.83750
+EPOCH: 89 ... SCORE: train 0.87172, val 0.86187, test 0.83812
+EPOCH: 90 ... SCORE: train 0.87094, val 0.86187, test 0.83625
+EPOCH: 91 ... SCORE: train 0.87094, val 0.86187, test 0.83625
+EPOCH: 92 ... SCORE: train 0.87078, val 0.86187, test 0.83625
+EPOCH: 93 ... SCORE: train 0.87094, val 0.86187, test 0.83687
+EPOCH: 94 ... SCORE: train 0.87109, val 0.86187, test 0.83687
+EPOCH: 95 ... SCORE: train 0.87094, val 0.86187, test 0.83687
+EPOCH: 96 ... SCORE: train 0.87109, val 0.86187, test 0.83687
+EPOCH: 97 ... SCORE: train 0.87109, val 0.86187, test 0.83687
+EPOCH: 98 ... SCORE: train 0.87109, val 0.86187, test 0.83687
+EPOCH: 99 ... SCORE: train 0.87109, val 0.86187, test 0.83687
+EPOCH: 100 ... SCORE: train 0.87109, val 0.86187, test 0.83687
