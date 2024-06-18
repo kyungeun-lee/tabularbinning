@@ -142,18 +142,14 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
     #Setup
-    parser.add_argument("--gpu_id", type=int, default=0)
-    parser.add_argument("--dataname", type=str, default="CH")
-    parser.add_argument("--finetuning", type=int, default=1)
-    
-    parser.add_argument("--encodername", type=str, default="mlp")
-    parser.add_argument("--mlpwidth", type=int, default=128)
-    parser.add_argument("--mlpdepth", type=int, default=1)
-    
+    parser.add_argument("--finetuning", type=int, default=1)    
     parser.add_argument("--wt_path", type=str, default="results/CH/model_encoder_ep1000.pt")
         
     args = parser.parse_args()
     
-    main(gpu_id=args.gpu_id, dataname=args.dataname, 
-         encodername=args.encodername, finetuning=bool(args.finetuning),
-         mlpwidth=args.mlpwidth, mlpdepth=args.mlpdepth, wt_path=args.wt_path)
+    with open("config.yaml", 'r') as config:
+        config = yaml.safe_load(config)
+    
+    main(gpu_id=config["gpu_id"], dataname=config["dataname"], 
+         encodername=config["encodername"], finetuning=bool(args.finetuning),
+         mlpwidth=config["mlpwidth"], mlpdepth=config["mlpdepth"], wt_path=args.wt_path)
