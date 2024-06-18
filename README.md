@@ -1,5 +1,5 @@
-# MI estimation benchmark
-The implementation codes of the paper *"Binning as a Pretext Task: Improving Self-Supervised Learning in Tabular Domains"* (ICML 2024)
+# Binning as a Pretext Task: Improving Self-Supervised Learning in Tabular Domains (ICML 2024)
+The implementation codes of the paper *"Binning as a Pretext Task: Improving Self-Supervised Learning in Tabular Domains"* 
 (Paper URL: https://arxiv.org/pdf/2405.07414)
 
 ## Table of Contents
