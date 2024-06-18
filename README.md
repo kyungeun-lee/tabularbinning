@@ -19,6 +19,17 @@ Once numerical features are discretized into bins based on the quantiles of the 
 Our project has been built on Python 3.9. Here is the entire list of python libraries required (also available in `requirements.txt`):
 
 ``` swift
+    torch==2.0.1
+    libzero==0.0.4
+    torchvision==0.15.2
+    pyaml==6.0.1
+    argparse==1.1
+    scikit-learn==1.2.2
+    scipy==1.10.1
+    rtdl==0.0.13
+    numpy==1.26.0
+    pandas==2.1.1
+    tqdm==4.66.1
 ```
 
 ### Examples
