@@ -68,8 +68,5 @@ Here we provide the simple examples in step by step.
 **RESULTS**
 - Training log file in `logs.log` in the predetermined `savepath`.
 
-### License
-Apache-2.0 license
-
 ### Contact
 Kyungeun Lee (e-mail: kyungeun.lee@lgresearch.ai)
